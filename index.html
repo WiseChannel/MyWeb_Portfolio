@@ -1,29 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="media/media.css">
+<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
     <title>Wise Portfolio</title>
 </head>
 <body>
 
     <header>
-        <ul>
-            <li>Главная</li>
-            <li>Обо мне</li>
-            <li>Портфолио</li>
-            <li>Контакты</li>
-        </ul>
+        <div id="header_map">
+            <img src="img/logo.png" alt="logo">
+            <ul>
+                <a href="#"><li>Главная</li></a>
+                <a href="#"><li>Проекты</li></a>
+                <a href="#"><li>Читаю</li></a>
+                <a href="#"><li>Цели</li></a>
+            </ul>
+        </div>
+
+        <div id="socialMedia">
+            <img id="telegramLogo" src="img/telegram.png" alt="telegramLogo">
+            <img id="gmailLogo" src="img/gmail.png" alt="gmailLogo">
+            <img id="instagramLogo" src="img/instagram.png" alt="instagramLogo">
+        </div>
     </header>
 
     <main>
-        <img src="img/justPhoto.jpg" alt="justPhoto">
+        <h1>Hello World! I'm Ilya</h1>
+        <p>For a few years now, I’ve been maintaining my own website using Github pages and a static site generator that I built back in high school using Python. While it served its purpose for a while, it’s long been time that I make the switch to an actual content-management-system.
+            <br>
+            I mostly want a place where I can dump thoughts easily and post instantly. WordPress is good at that. I also am a big fan of the plugin ecosystem, and the fact that everything is open source.
+            <br>
+            Anyways, now that I’ve justified it, I’m gonna make it live. Bye, bye, old static site!</p>
     </main>
 
-    <footer></footer>
+    <footer>
 
-    <script src="js/index.js" async></script>
+    </footer>
+
+    <script src="js/index.js" defer></script>
 </body>
 </html>

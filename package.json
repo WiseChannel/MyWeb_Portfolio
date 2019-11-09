@@ -1,0 +1,24 @@
+{
+  "name": "myweb_porfolio",
+  "version": "1.0.0",
+  "description": "myweb_porfolio,Wise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WiseChannel/MyWeb_Porfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WiseChannel/MyWeb_Porfolio/issues"
+  },
+  "homepage": "https://github.com/WiseChannel/MyWeb_Porfolio#readme",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "sass": "^1.23.3",
+    "scss": "^0.2.4"
+  }
+}
